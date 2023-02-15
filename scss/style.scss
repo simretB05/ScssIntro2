@@ -1,0 +1,19 @@
+$main-color: rgb(52, 23, 180);
+@import "footer";
+
+header {
+  background-color: lightblue;
+  min-height: 10vh;
+  display: grid;
+
+  nav {
+    background-color: $main-color;
+    a {
+      text-decoration: none;
+      &:hover {
+        text-decoration: underline;
+        color: $main-color;
+      }
+    }
+  }
+}
